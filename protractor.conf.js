@@ -50,8 +50,8 @@ exports.config = {
 
     // HTML Reporter
     jasmine.getEnv().addReporter(new HtmlReporter({
-      dest: 'reports/' + date,
-      filename: 'TestReport' + date + '.html'
+      dest: 'reports/',
+      filename: 'TestReport.html'
     }));
     browser.ignoreSynchronization = true;
     EC = protractor.ExpectedConditions;
