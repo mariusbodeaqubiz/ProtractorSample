@@ -50,7 +50,7 @@ exports.config = {
 
     // HTML Reporter
     jasmine.getEnv().addReporter(new HtmlReporter({
-      dest: 'reports/',
+      dest: 'reports',
       filename: 'TestReport.html'
     }));
     browser.ignoreSynchronization = true;
