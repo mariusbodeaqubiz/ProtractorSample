@@ -20,7 +20,8 @@
   "devDependencies": {
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec ApiTests && protractor protractor.conf.js"
+    // "test": "./node_modules/.bin/mocha --reporter spec ApiTests && protractor protractor.conf.js"
+    "test": "protractor protractor.conf.js"
   },
   "author": "Marius Bodea",
   "license": "ISC"
